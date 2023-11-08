@@ -1,0 +1,112 @@
+body{
+    background-image: url('foto\ de\ fundo.png');
+    
+}
+
+form{
+    color: #8d98a7
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color:rgb(44, 46, 48);
+    width: 850px;
+    height: 450px;
+    font-family:"Verdana";
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+
+    margin: auto;
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+a{
+    color: #028edf;
+    text-align: none;
+    text-decoration: none;
+    font-size: 14px;
+ }   
+
+a:active { /* quando o link for selecionado */
+    color: #028edf;  
+}
+
+input{
+    background-color:#1E1F22;
+    border: none;
+    outline: none;
+    caret-color: white;
+    height: 40px;
+    width: 430px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*Fontes*/
+h2{
+    text-align:center;
+    font-weight:border;
+    margin: 0px;
+    color: white;
+}
+h5{
+    text-align: center;
+    font-size: 14px;
+    color:#8d98a7;
+    font-weight:lighter;
+}
+h3{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+label{
+    font-size: 14px;
+}
+
+/*Botão de seleção*/
+button{
+    background-color: #5865F2;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 430px;
+    margin-top: 10px;
+    color: white;
+}
+button:hover{
+    background-color: #505bd6;
+}
+
+
+.container-qr-code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin-bottom: 40px;
+}
+
+.container-qr-code h5{ 
+    width: 250px;
+
+}
+
+p{
+    margin: 0px;
+    font-size: 13px;
+}
